@@ -1,0 +1,85 @@
+.whapper {
+    min-height: 100vh;
+}
+
+.carousel-inner {
+    height: 580px;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card img {
+    width: 250px;
+    height: 312px;    
+}
+
+@media screen and (max-width: 320px) {
+    .card img {
+        width: 260px;
+        height: 322px;
+    }
+
+    #nav-list ul {
+        align-items: center;
+    }
+
+    #nav-list ul li a i{
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 321px) and (max-width:768px){
+    #nav-list ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #nav-list ul li a i{
+        display: none;
+    }
+
+    header {
+        height: 323px;
+    }
+
+    #sony {
+        padding-top:10px;
+    }
+
+    .carousel-inner {
+        height: 323px; 
+    }
+
+    .carousel-indicators {
+        height: 10px;
+    }
+
+    .card {
+        padding: 20px 20px;
+    }
+    
+    .card img {
+        width: 255px;
+        height: 317px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width:1440px){
+    #nav-list {
+        width: 60%;
+    }
+    
+    #nav-list ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .card img {
+        width: 250px;
+        height: 312px;
+    }
+}
+

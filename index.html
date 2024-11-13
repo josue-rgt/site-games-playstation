@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games Playstation</title>
+    <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+</head>
+<body>
+    <div class="d-flex flex-column whapper">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+            <div class="container d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-1">
+                <div class=" mb-2 mb-md-0">
+                    <a class="navbar-brand fs-1 fw-bolder" href=""><img src="icon/ps02.png" alt="" width="60px"></i>GP</a>
+                </div>
+        
+                <div id="nav-list" class="nav col-12 col-md-6 mb-2 justify-content-center mb-md-0">                
+                    <ul class="navbar-nav fs-4">
+                        <li class="nav-item mx-2">
+                            <a href="" class="fs-5 fw-bold text-danger link-underline-danger link-offset-3 link-underline-opacity-100 link-underline-opacity-100-hover"><i class="bi bi-house me-2 fs-4"></i>Ínicio</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a href="" class="fs-5 fw-bold text-white link-underline-warning link-offset-3 link-underline-opacity-0 link-underline-opacity-100-hover"><i class="bi bi-controller me-2 fs-4"></i>Catálogo</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a href="" class="fs-5 fw-bold text-white link-underline-success link-offset-3 link-underline-opacity-0 link-underline-opacity-100-hover"><i class="bi bi-star me-2 fs-4"></i>Favoritos</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a href="" class="fs-5 fw-bold text-white link-underline-primary link-offset-3 link-underline-opacity-0 link-underline-opacity-100-hover" ><i class="bi bi-envelope me-1 fs-4"></i>Contatos</a>
+                        </li>
+                    </ul>
+                </div>
+        
+                <div class=" text-end">
+                    <button type="button" class="btn btn-outline-danger text-white me-2 border-3">Entrar</button>
+                    <button type="button" class="btn btn-outline-danger text-white border-3">Cadastrar</button>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container d-flex flex-wrap justify-content-center py-1">
+            <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none">
+                <span class="fs-4 fw-bolder" id="sony">SONY</span>
+            </a>
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0" role="search">
+                <input type="search" class="form-control" placeholder="Procurar Jogos" aria-label="Search">
+            </form>
+        </div>
+
+        <header>
+            <div id="carouselMain" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="4"></button>
+                </div>
+
+                <div class="carousel-inner">    
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img src="image/game01.jpg" class="d-block w-100" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="image/game02.jpg" class="d-block w-100" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="image/game03.jpg" class="d-block w-100" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="image/game04.jpg" class="d-block w-100" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="image/game05.jpg" class="d-block w-100" alt="">
+                    </div>
+                </div>
+
+                <button type="button" class="carousel-control-prev" data-bs-target="#carouselMain" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button type="button" class="carousel-control-next" data-bs-target="#carouselMain" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+            </div>
+        </header>
+
+        <main class="flex-fill mb-3">
+            <div class="container">
+                <div class="p-1 text-center">
+                    <hr class="solid">
+                    <p class="fs-2 fw-bolder">Catálogo</p>
+                    <hr class="solid">
+                </div>
+                
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3">
+
+                    <div class="col">
+                        <div class="card text-center bg-light h-100">
+                            <img src="image/logo01.jpg" alt="" class="mx-auto mt-4">
+                            <div class="card-header fw-bolder">
+                                TEKKEN 8
+                            </div>
+                            <div class="card-body bg-dark text-white">
+                                <p class="card-text fw-bolder text-primary">
+                                    PlayStation 5
+                                </p>
+                                <h3 class="card-title">R$ 199, 90</h3>
+                                <p class="fw-lighter mb-1">
+                                    em até 2x de R$99, 95 sem juros<br>
+                                    Opção de frete GRÁTIS disponível
+                                </p>
+                            </div>
+                            <div class="card-footer d-flex justify-content-between bg-dark">
+                                <a href="" class="fs-5 fw-bold text-white link-underline-success link-offset-3 link-underline-opacity-0 link-underline-opacity-100-hover"><i class="bi bi-star me-2 fs-4"></i>Favoritar</a>
+                                <button class="btn btn-outline-danger p-2 text-white border-3">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card text-center bg-light h-100">
+                            <img src="image/logo02.jpg" alt="" class="mx-auto mt-4">
+                            <div class="card-header fw-bolder">
+                                ELDEN RING
+                            </div>
+                            <div class="card-body bg-dark text-white">
+                                <p class="card-text fw-bolder text-primary">
+                                    PlayStation 5
+                                </p>
+                                <h3 class="card-title">R$ 199, 90</h3>
+                                <p class="fw-lighter mb-1">
+                                    em até 2x de R$99, 95 sem juros<br>
+                                    Opção de frete GRÁTIS disponível
+                                </p>
+                            </div>
+                            <div class="card-footer d-flex justify-content-between bg-dark">
+                                <a href="" class="fs-5 fw-bold text-white link-underline-success link-offset-3 link-underline-opacity-0 link-underline-opacity-100-hover"><i class="bi bi-star me-2 fs-4"></i>Favoritar</a>
+                                <button class="btn btn-outline-danger p-2 text-white border-3">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card text-center bg-light h-100">
+                            <img src="image/logo03.jpg" alt="" class="mx-auto mt-4">
+                            <div class="card-header fw-bolder">
+                                DEATH STRANDING
+                            </div>
+                            <div class="card-body bg-dark text-white">
+                                <p class="card-text fw-bolder text-primary">
+                                    PlayStation 5
+                                </p>
+                                <h3 class="card-title">R$ 199, 90</h3>
+                                <p class="fw-lighter mb-1">
+                                    em até 2x de R$99, 95 sem juros<br>
+                                    Opção de frete GRÁTIS disponível
+                                </p>
+                            </div>
+                            <div class="card-footer d-flex justify-content-between bg-dark">
+                                <a href="" class="fs-5 fw-bold text-white link-underline-success link-offset-3 link-underline-opacity-0 link-underline-opacity-100-hover"><i class="bi bi-star me-2 fs-4"></i>Favoritar</a>
+                                <button class="btn btn-outline-danger p-2 text-white border-3">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card text-center bg-light h-100">
+                            <img src="image/logo04.jpg" alt="" class="mx-auto mt-4">
+                            <div class="card-header fw-bolder">
+                                GOD OF WAR - RAGNAROK
+                            </div>
+                            <div class="card-body bg-dark text-white">
+                                <p class="card-text fw-bolder text-primary">
+                                    PlayStation 5
+                                </p>
+                                <h3 class="card-title">R$ 199, 90</h3>
+                                <p class="fw-lighter mb-1">
+                                    em até 2x de R$99, 95 sem juros<br>
+                                    Opção de frete GRÁTIS disponível
+                                </p>
+                            </div>
+                            <div class="card-footer d-flex justify-content-between bg-dark">
+                                <a href="" class="fs-5 fw-bold text-white link-underline-success link-offset-3 link-underline-opacity-0 link-underline-opacity-100-hover"><i class="bi bi-star me-2 fs-4"></i>Favoritar</a>
+                                <button class="btn btn-outline-danger p-2 text-white border-3">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card text-center bg-light h-100">
+                            <img src="image/logo05.jpg" alt="" class="mx-auto mt-4">
+                            <div class="card-header fw-bolder">
+                                SPIDER - MAN 2
+                            </div>
+                            <div class="card-body bg-dark text-white">
+                                <p class="card-text fw-bolder text-primary">
+                                    PlayStation 5
+                                </p>
+                                <h3 class="card-title">R$ 199, 90</h3>
+                                <p class="fw-lighter mb-1">
+                                    em até 2x de R$99, 95 sem juros<br>
+                                    Opção de frete GRÁTIS disponível
+                                </p>
+                            </div>
+                            <div class="card-footer d-flex justify-content-between bg-dark">
+                                <a href="" class="fs-5 fw-bold text-white link-underline-success link-offset-3 link-underline-opacity-0 link-underline-opacity-100-hover"><i class="bi bi-star me-2 fs-4"></i>Favoritar</a>
+                                <button class="btn btn-outline-danger p-2 text-white border-3">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card text-center bg-light h-100">
+                            <img src="image/logo06.jpg" alt="" class="mx-auto mt-4">
+                            <div class="card-header fw-bolder">
+                                HORIZON - FORBIDDEN WEST
+                            </div>
+                            <div class="card-body bg-dark text-white">
+                                <p class="card-text fw-bolder text-primary">
+                                    PlayStation 5
+                                </p>
+                                <h3 class="card-title">R$ 199, 90</h3>
+                                <p class="fw-lighter mb-1">
+                                    em até 2x de R$99, 95 sem juros<br>
+                                    Opção de frete GRÁTIS disponível
+                                </p>
+                            </div>
+                            <div class="card-footer d-flex justify-content-between bg-dark">
+                                <a href="" class="fs-5 fw-bold text-white link-underline-success link-offset-3 link-underline-opacity-0 link-underline-opacity-100-hover"><i class="bi bi-star me-2 fs-4"></i>Favoritar</a>
+                                <button class="btn btn-outline-danger p-2 text-white border-3">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card text-center bg-light h-100">
+                            <img src="image/logo07.jpg" alt="" class="mx-auto mt-4">
+                            <div class="card-header fw-bolder">
+                                GRAND THEFT AUTO V
+                            </div>
+                            <div class="card-body bg-dark text-white">
+                                <p class="card-text fw-bolder text-primary">
+                                    PlayStation 5
+                                </p>
+                                <h3 class="card-title">R$ 199, 90</h3>
+                                <p class="fw-lighter mb-1">
+                                    em até 2x de R$99, 95 sem juros<br>
+                                    Opção de frete GRÁTIS disponível
+                                </p>
+                            </div>
+                            <div class="card-footer d-flex justify-content-between bg-dark">
+                                <a href="" class="fs-5 fw-bold text-white link-underline-success link-offset-3 link-underline-opacity-0 link-underline-opacity-100-hover"><i class="bi bi-star me-2 fs-4"></i>Favoritar</a>
+                                <button class="btn btn-outline-danger p-2 text-white border-3">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card text-center bg-light h-100">
+                            <img src="image/logo08.jpg" alt="" class="mx-auto mt-4">
+                            <div class="card-header fw-bolder">
+                                AVATAR - FRONTIERS OF PANDORA
+                            </div>
+                            <div class="card-body bg-dark text-white">
+                                <p class="card-text fw-bolder text-primary">
+                                    PlayStation 5
+                                </p>
+                                <h3 class="card-title">R$ 199, 90</h3>
+                                <p class="fw-lighter mb-1">
+                                    em até 2x de R$99, 95 sem juros<br>
+                                    Opção de frete GRÁTIS disponível
+                                </p>
+                            </div>
+                            <div class="card-footer d-flex justify-content-between bg-dark">
+                                <a href="" class="fs-5 fw-bold text-white link-underline-success link-offset-3 link-underline-opacity-0 link-underline-opacity-100-hover"><i class="bi bi-star me-2 fs-4"></i>Favoritar</a>
+                                <button class="btn btn-outline-danger p-2 text-white border-3">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-1 text-center">
+                    <hr class="solid">
+                    <p class="fs-2 fw-bolder">Promoções</p>
+                    <hr class="solid">
+                </div>
+
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3">
+                    <div class="col">
+                        <div class="card text-center bg-light h-100">
+                            <img src="image/logo09.jpg" alt="" class="mx-auto mt-4">
+                            <div class="card-header fw-bolder">
+                                THE LAST OF US - PART II
+                            </div>
+                            <div class="card-body bg-dark text-white">
+                                <p class="card-text fw-bolder text-primary">
+                                    PlayStation 5
+                                </p>
+                                <h3 class="card-title">R$ 149, 90</h3>
+                                <p class="fw-lighter mb-1">
+                                    em até 2x de R$74, 95 sem juros<br>
+                                    Opção de frete GRÁTIS disponível
+                                </p>
+                            </div>
+                            <div class="card-footer d-flex justify-content-between bg-dark">
+                                <a href="" class="fs-5 fw-bold text-white link-underline-success link-offset-3 link-underline-opacity-0 link-underline-opacity-100-hover"><i class="bi bi-star me-2 fs-4"></i>Favoritar</a>
+                                <button class="btn btn-outline-danger p-2 text-white border-3">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card text-center bg-light h-100">
+                            <img src="image/logo10.jpg" alt="" class="mx-auto mt-4">
+                            <div class="card-header fw-bolder">
+                                HOGWARTS LEGACY
+                            </div>
+                            <div class="card-body bg-dark text-white">
+                                <p class="card-text fw-bolder text-primary">
+                                    PlayStation 5
+                                </p>
+                                <h3 class="card-title">R$ 149, 90</h3>
+                                <p class="fw-lighter mb-1">
+                                    em até 2x de R$74, 95 sem juros<br>
+                                    Opção de frete GRÁTIS disponível
+                                </p>
+                            </div>
+                            <div class="card-footer d-flex justify-content-between bg-dark">
+                                <a href="" class="fs-5 fw-bold text-white link-underline-success link-offset-3 link-underline-opacity-0 link-underline-opacity-100-hover"><i class="bi bi-star me-2 fs-4"></i>Favoritar</a>
+                                <button class="btn btn-outline-danger p-2 text-white border-3">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card text-center bg-light h-100">
+                            <img src="image/logo11.jpg" alt="" class="mx-auto mt-4">
+                            <div class="card-header fw-bolder">
+                                DEMON'S SOULS
+                            </div>
+                            <div class="card-body bg-dark text-white">
+                                <p class="card-text fw-bolder text-primary">
+                                    PlayStation 5
+                                </p>
+                                <h3 class="card-title">R$ 149, 90</h3>
+                                <p class="fw-lighter mb-1">
+                                    em até 2x de R$74, 95 sem juros<br>
+                                    Opção de frete GRÁTIS disponível
+                                </p>
+                            </div>
+                            <div class="card-footer d-flex justify-content-between bg-dark">
+                                <a href="" class="fs-5 fw-bold text-white link-underline-success link-offset-3 link-underline-opacity-0 link-underline-opacity-100-hover"><i class="bi bi-star me-2 fs-4"></i>Favoritar</a>
+                                <button class="btn btn-outline-danger p-2 text-white border-3">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card text-center bg-light h-100">
+                            <img src="image/logo12.jpg" alt="" class="mx-auto mt-4">
+                            <div class="card-header fw-bolder">
+                                STAR WATS - OUTLAWS
+                            </div>
+                            <div class="card-body bg-dark text-white">
+                                <p class="card-text fw-bolder text-primary">
+                                    PlayStation 5
+                                </p>
+                                <h3 class="card-title">R$ 149, 90</h3>
+                                <p class="fw-lighter mb-1">
+                                    em até 2x de R$74, 95 sem juros<br>
+                                    Opção de frete GRÁTIS disponível
+                                </p>
+                            </div>
+                            <div class="card-footer d-flex justify-content-between bg-dark">
+                                <a href="" class="fs-5 fw-bold text-white link-underline-success link-offset-3 link-underline-opacity-0 link-underline-opacity-100-hover"><i class="bi bi-star me-2 fs-4"></i>Favoritar</a>
+                                <button class="btn btn-outline-danger p-2 text-white border-3">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class=" bg-dark mt-2">
+            <div class="text-center text-white">
+                <div class="container p-4 pb-0">
+                    <section class="mb-4">
+                        <a class="btn btn-outline-light btn-floating m-1" href="https://linkedin.com/" target="blank" role="button"><i class="bi bi-linkedin"></i></a>
+                        <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/" target="blank" role="button"><i class="bi bi-github"></i></a>
+                        <a class="btn btn-outline-light btn-floating m-1" href="https://x.com/" target="blank" role="button"><i class="bi bi-twitter-x"></i></a>
+                        <a class="btn btn-outline-light btn-floating m-1" href="https://facebook.com/" target="_blank" role="button"><i class="bi bi-facebook"></i></a>
+                        <a class="btn btn-outline-light btn-floating m-1" href="https://instagram.com/" target="blank" role="button"><i class="bi bi-instagram"></i></a>
+                    </section>
+                </div>
+
+                <div class="text-center text-light p-3 bg-black">
+                    &copy; 2024 - TODOS OS DIREITOS RESERVADOS - GAMES PLAYSTATION - JOSUÉ ROGÉRIO GABRIEL TEODORO
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
